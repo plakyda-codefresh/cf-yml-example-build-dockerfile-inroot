@@ -7,7 +7,7 @@ steps:
     arguments:
       working_directory: '${{main_clone}}'
       repo: '${{CF_REPO_OWNER}}/${{CF_REPO_NAME}}'
-      git: github
+      git: github-3
       revision: '${{CF_REVISION}}'
   build_prj:
     type: build
