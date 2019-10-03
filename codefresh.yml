@@ -13,5 +13,5 @@ steps:
     description: Build an Image with the Dockerfile in Root Directory
     image_name: codefreshio/yaml-example-dockerfile-inroot
     dockerfile: Dockerfile
-    working_directory: ${{clone_step_name}}
+    working_directory: ${{Clone}}
     tag: ${{CF_BRANCH}}
